@@ -25,15 +25,15 @@ int main()
 	std::cout << "Quantity of donuts sold:" << number4 << std::endl << std::endl;
 
 
-	double sum = number2 + number4;
-	double product = number1 * number2 * number3;
+	double itemssold = number2 + number4;
 	double muffinsales = number1 * number2;
 	double donutsales = number3 * number4;
 	double totalsales = muffinsales + donutsales;
 
 
-	std::cout << "Total items sold:" << sum << std::endl;
+	std::cout << "Total items sold:" << itemssold << std::endl;
 	std::cout << "Muffin sales:$" << muffinsales << std::endl;
+	// Here comes the muffin man O_o
 	std::cout << "Donut sales:$" << donutsales << std::endl;
 	std::cout << "Total sales:$" << totalsales << std::endl;
 
